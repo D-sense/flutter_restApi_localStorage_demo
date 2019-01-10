@@ -6,6 +6,9 @@ A new Flutter project.
 
 This Flutter app demos simple use-case of REST API call and Local Storage consumption in Flutter.
 
+![App Demo](showcase_image/demo.png)
+
+
 ## Installation
 - [Install Flutter via this link](https://flutter.io/docs/get-started/install)
 - Clone this project (ensure to start it too...winks).
