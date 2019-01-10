@@ -1,6 +1,6 @@
 # api_sqlite_flutter_app
 
-A new Flutter project.
+This is a Flutter project. The discussion of the application development can be found here: - [Slides](https://docs.google.com/presentation/d/1inQxoZDARDPLvnoBVAiTrVnlSX5VARvr_RY-kXiNvXo/edit?usp=sharing)
 
 ## Getting Started
 
