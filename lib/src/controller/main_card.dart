@@ -6,17 +6,16 @@ import '../screens/card_list.dart';
 
 
 
-class MainCardScreen extends StatefulWidget{
+class MainCard extends StatefulWidget{
 
   @override
-    State<MainCardScreen> createState() {
-      // TODO: implement createState
-      return new AppState();
+    State<MainCard> createState() {
+      return new MainCardState();
     }
 }
 
 
-class AppState extends State<MainCardScreen> {
+class MainCardState extends State<MainCard> {
   final _root ="https://jsonplaceholder.typicode.com/photos/";
   int counter = 0;
 

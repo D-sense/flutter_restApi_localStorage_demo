@@ -15,7 +15,7 @@ class AppState extends State<App> {
   int _currentIndex = 0;
 
   final List<Widget> _children = [
-    MainCardScreen(), FavouriteCardScreen()
+    MainCard(), FavouriteCard()
   ];
 
   Widget build(context) {

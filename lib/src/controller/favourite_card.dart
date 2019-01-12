@@ -3,15 +3,14 @@ import '../models/card_model.dart';
 import '../controller/local_storage.dart';
 import 'dart:convert';
 
-class FavouriteCardScreen extends StatefulWidget {
+class FavouriteCard extends StatefulWidget {
   @override
-  State<FavouriteCardScreen> createState() {
-    // TODO: implement createState
-    return FavouriteState();
+  State<FavouriteCard> createState() {
+    return FavouriteCardState();
   }
 }
 
-class FavouriteState extends State<FavouriteCardScreen> {
+class FavouriteCardState extends State<FavouriteCard> {
   
   LocalStorageHelper db = new LocalStorageHelper();
 
@@ -39,25 +38,12 @@ class FavouriteState extends State<FavouriteCardScreen> {
               title: Text("Favourite Cards"),
             ),
             body: Center(
-              //child: Text("My saved card shows here......"),
+              //child: Text("My saved card shows up here......"),
               child: cardBuilder(),
             )));
   }
 
  
-  // Widget cardBuilder1() {
-  //   return ListView.builder(
-  //       itemCount: cards.length,
-  //       itemBuilder: (context, index) {
-  //         return Column(children: <Widget>[
-  //           Padding(
-  //               child: Text("${cards[index].id}"),
-  //               padding: EdgeInsets.only(bottom: 8.0)),
-  //           Text(cards[index].title),
-  //         ]);
-  //       });
-  // }
-
   Widget cardBuilder() {
     return ListView.builder(
         itemCount: cards.length,
